@@ -7,19 +7,30 @@
 		<title>Trackion</title>
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
 	</head>
 	<body ng-app="Trackion">
 
-		<div ng-include="'partials/header.html'"></div>
-		<div ng-include="'partials/home.html'"></div>
+		<div ng-include="'app/header.tpl.html'"></div>
+		<div ng-view></div>
 		
-		<!-- jQuery -->
-		<script src="js/jquery.min.js"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/angular.js"></script>
-		<script src="app.js"></script>
+		<!-- Vendor Files -->
+		<script src="assets/vendor/jquery.min.js"></script>
+		<script src="assets/vendor/bootstrap.min.js"></script>
+		<script src="assets/vendor/angular.js"></script>
+		<script src="assets/vendor/angular-route.min.js"></script>
+
+		<!-- Website specific files -->
+		<script src="app/app.js"></script>
+		<!-- Routes -->
+		<script src="app/home/home.route.js"></script>
+		<script src="app/tracking/tracking.route.js"></script>
+		<!-- Controllers -->
+		<script src="app/home/home.controller.js"></script>
+		<script src="app/tracking/tracking.controller.js"></script>		
+		<!-- Services -->
+		<script src="app/home/home.service.js"></script>
+		<script src="app/tracking/tracking.service.js"></script>
 	</body>
 </html>
