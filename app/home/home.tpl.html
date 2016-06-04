@@ -1,17 +1,22 @@
-<div class="container">
+<div class="container-fluid">
 	<div class="tr-home-header">
-		<h1>List of Ideas</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+	    <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+	      <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+	        <img ng-src="{{slide.image}}" style="margin:auto;">
+	        <div class="carousel-caption">
+	          <h2>{{slide.heading}}</h2>
+	          <p>{{slide.description}}</p>
+	          <button type="button" class="btn btn-primary">Log and Browse Ideas</button>
+	        </div>
+	      </uib-slide>
+	    </uib-carousel>
 	</div>
 	<hr/>
-	<div class="tr-idea-panel" ng-repeat="idea in listOfIdeas">
-		<h3>{{idea.title}}</h3>
-		<img ng-src="{{idea.avatar}}">
-		<p>{{idea.description}}</p>
+	<div class="container">
+		<div class="tr-idea-panel" ng-repeat="idea in listOfIdeas">
+			<h3>{{idea.title}}</h3>
+			<img ng-src="{{idea.avatar}}">
+			<p>{{idea.description| limitTo: 150}}<span ng-show="idea.description.length>150">...</span></p>
+		</div>		
 	</div>
 </div>
