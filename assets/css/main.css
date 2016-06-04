@@ -1,0 +1,29 @@
+.tr-home-header{
+	text-align: center;
+}
+.tr-idea-panel{
+	border: 5px solid #4099ff;
+	width : 200px;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+.tr-idea-panel:hover{
+	border: 5px solid green;
+}
+
+.tr-idea-panel h3{
+	padding: 10px;
+	background-color: #4099ff;
+	color: #fff;	
+}
+
+.tr-idea-panel img{
+	width: 100px;
+	height: 100px;
+}
+
+.tr-idea-panel p{
+	padding: 10px;
+}
