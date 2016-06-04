@@ -1,7 +1,7 @@
 [{
 	"title" : "MyJournal",
 	"description" : "I'm a big follower of RobinSharma, the leadership guru! One of the outstanding habit he always insist is that one should plan/reflect on his days through his personal journal!",
-	"avatar" : "assets/images/idea.jpg"
+	"avatar" : "assets/images/journal.jpg"
 },{
 	"title" : "Trackion",
 	"description" : "A place where you can offload your genius ideas and thought process",
@@ -9,19 +9,19 @@
 },{
 	"title" : "Genion",
 	"description" : "Connecting relationsips! One of my mind provoking idea, which i consider as one of beautiful app which will connect any relations!",
-	"avatar" : "assets/images/idea.jpg"
+	"avatar" : "assets/images/genie.jpg"
 },{
 	"title" : "Siruseri Runners",
 	"description" : "A Marathon website, where people can log their timings, setting milestones, chat with their fellow runners and get inspired!",
-	"avatar" : "assets/images/idea.jpg"
+	"avatar" : "assets/images/runners.jpg"
 },{
 	"title" : "Offload Memory",
 	"description" : "I think in this fast moving world the technlogies, tools, framework, language and design patterns keep changing. It is very difficult for any human to recollect or remember all these in mind, so this is place where they can offload their memory. ",
-	"avatar" : "assets/images/idea.jpg"
+	"avatar" : "assets/images/memory.jpg"
 },{
-	"title" : "Idea6",
-	"description" : "Idea Cellular is India's leading provider of mobile prepaid, postpaid, Wireless Internet, 3G data card services and business enterprise solutions.",
-	"avatar" : "assets/images/idea.jpg"
+	"title" : "You Get It",
+	"description" : "You can request for almost anything in this world, if you even don't know the name of the product just upload the pic of it. We will get it for you :)",
+	"avatar" : "assets/images/yougotit.gif"
 },{
 	"title" : "Idea7",
 	"description" : "Idea Cellular is India's leading provider of mobile prepaid, postpaid, Wireless Internet, 3G data card services and business enterprise solutions.",
@@ -32,10 +32,6 @@
 	"avatar" : "assets/images/idea.jpg"
 },{
 	"title" : "Idea9",
-	"description" : "Idea Cellular is India's leading provider of mobile prepaid, postpaid, Wireless Internet, 3G data card services and business enterprise solutions.",
-	"avatar" : "assets/images/idea.jpg"
-},{
-	"title" : "Idea10",
 	"description" : "Idea Cellular is India's leading provider of mobile prepaid, postpaid, Wireless Internet, 3G data card services and business enterprise solutions.",
 	"avatar" : "assets/images/idea.jpg"
 }]
