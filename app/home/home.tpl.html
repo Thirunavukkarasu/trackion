@@ -13,10 +13,16 @@
 	</div>
 	<hr/>
 	<div class="container">
-		<div class="tr-idea-panel" ng-repeat="idea in listOfIdeas">
-			<h3>{{idea.title}}</h3>
+		<div class="tr-panel panel-first" ng-repeat="idea in listOfIdeas">
+			<div class="tr-panel-heading">{{idea.title}}</div>
 			<img ng-src="{{idea.avatar}}">
-			<p>{{idea.description| limitTo: 150}}<span ng-show="idea.description.length>150">...</span></p>
+			<div class="tr-mask">
+				<div class="tr-mask-body">
+					<div class="tr-mask-heading">{{idea.title}}</div>
+					<p>{{idea.description| limitTo: 150}}<span ng-show="idea.description.length>150">...</span></p>				
+					<button type="button" class="btn btn-success">Read more...</button>				
+				</div>
+			</div>
 		</div>		
 	</div>
 </div>
