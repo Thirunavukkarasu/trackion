@@ -1,0 +1,39 @@
+<div class="container">
+	<div class="panel panel-primary tr-form-panel">
+		<div class="panel-heading">
+			<h3 class="panel-title">Track your Ideas</h3>
+		</div>
+		<div class="panel-body">
+			<form name="ideaForm">						
+				<div class="form-group">
+					<label for="">Idea Title</label>
+					<input type="text" name="ideaTitle" class="form-control" ng-model="idea.ideaTitle" required="required">
+				</div>
+				<div class="form-group">
+					<label for="">Idea Description</label>
+					<textarea name="ideaDescription" class="form-control" ng-model="idea.ideaDescription" required="required" rows="3"></textarea>
+				</div>			
+				<div class="form-group">
+					<label for="">Idea Avatar</label>
+			        <div class="input-group image-preview">
+		                <input type="text" class="form-control image-preview-filename" value="{{idea.ideaPoster.name}}" disabled="disabled">
+		                <span class="input-group-btn">
+		                    <!-- image-preview-clear button -->
+		                    <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+		                        <span class="glyphicon glyphicon-remove"></span> Clear
+		                    </button>
+		                    <!-- image-preview-input -->
+		                    <div class="btn btn-default image-preview-input">
+		                        <span class="glyphicon glyphicon-folder-open"></span>
+		                        <span class="image-preview-input-title">Browse</span>
+		                        <input type="file" ngf-select ng-model="idea.ideaPoster" name="ideaPoster" accept="image/*" ngf-max-size="2MB" required/> 
+		                    </div>
+		                </span>
+		            </div>
+				</div>								
+				<button type="submit" class="btn btn-success"  ng-click="saveIdea(idea)">Submit</button>
+				<button type="button" class="btn btn-danger">Reset</button>
+			</form>
+		</div>
+	</div>
+</div>

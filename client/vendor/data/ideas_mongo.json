@@ -1,0 +1,46 @@
+    {
+		"title" : "MyJournal",
+		"description" : "I'm a big follower of RobinSharma, the leadership guru! One of the outstanding habit he always insist is that one should plan/reflect on his days through his personal journal!",
+		"poster" : "images/journal.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]
+	}{
+		"title" : "Trackion",
+		"description" : "A place where you can offload your genius ideas and thought process",
+		"poster" : "images/idea.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	} {
+		"title" : "Genion",
+		"description" : "Connecting relationsips! One of my mind provoking idea, which i consider as one of beautiful app which will connect any relations!",
+		"poster" : "images/genie.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	} {
+		"title" : "Siruseri Runners",
+		"description" : "A Marathon website, where people can log their timings, setting milestones, chat with their fellow runners and get inspired!",
+		"poster" : "images/runners.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	} {
+		"title" : "Offload Memory",
+		"description" : "I think in this fast moving world the technlogies, tools, framework, language and design patterns keep changing. It is very difficult for any human to recollect or remember all these in mind, so this is place where they can offload their memory. ",
+		"poster" : "images/memory.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	} {
+		"title" : "You Get It",
+		"description" : "You can request for almost anything in this world, if you even don't know the name of the product just upload the pic of it. We will get it for you :)",
+		"poster" : "images/yougotit.gif",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	} {
+		"title" : "Idea7",
+		"description" : "Idea Cellular is India's leading provider of mobile prepaid, postpaid, Wireless Internet, 3G data card services and business enterprise solutions.",
+		"poster" : "images/idea.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	} {
+		"title" : "Idea8",
+		"description" : "Idea Cellular is India's leading provider of mobile prepaid, postpaid, Wireless Internet, 3G data card services and business enterprise solutions.",
+		"poster" : "images/idea.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	} {
+		"title" : "Idea9",
+		"description" : "Idea Cellular is India's leading provider of mobile prepaid, postpaid, Wireless Internet, 3G data card services and business enterprise solutions.",
+		"poster" : "images/idea.jpg",
+		"technlogies_involved" : ["AngularJS","NodeJS","ExpressJS","Passport","MongoDB"]	
+	}

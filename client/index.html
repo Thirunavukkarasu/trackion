@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<base href="/">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Trackion</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="stylesheets/bootstrap.css">
+		<link rel="stylesheet" href="stylesheets/style.css">
+	</head>
+	<body ng-app="TrackionApp">
+
+		<div ng-view></div>
+
+		<!-- Vendor JavaScript files -->
+		<script src="vendor/angular.min.js"></script>
+		<script src="vendor/ui-bootstrap-tpls-1.3.3.min.js"></script>
+		<script src="vendor/angular-route.min.js"></script>
+		<script src="vendor/angular-resource.min.js"></script>
+		<script src="vendor/angular-messages.min.js"></script>
+		<script src="vendor/ng-file-upload.js"></script>
+    	<script src="vendor/ng-file-upload-shim.js"></script>		
+
+		<!-- App JavaScript files -->
+		<script src="app/app.js"></script>
+
+		<script src="app/core/core.module.js"></script>
+		<script src="app/core/auth.service.js"></script>
+
+		<script src="app/home/home.route.js"></script>
+		<script src="app/home/home.controller.js"></script>
+		<script src="app/home/home.service.js"></script>	
+
+		<script src="app/dashboard/dashboard.route.js"></script>
+		<script src="app/dashboard/dashboard.controller.js"></script>
+		<script src="app/dashboard/dashboard.service.js"></script>				
+
+		<script src="app/addidea/addidea.route.js"></script>
+		<script src="app/addidea/addidea.controller.js"></script>
+		<script src="app/addidea/addidea.service.js"></script>	
+
+		<script src="app/detailidea/detailidea.route.js"></script>
+		<script src="app/detailidea/detailidea.controller.js"></script>
+		<script src="app/detailidea/detailidea.service.js"></script>		
+
+		<script src="app/login/login.route.js"></script>
+		<script src="app/login/login.controller.js"></script>
+		<script src="app/login/login.service.js"></script>	
+
+		<script src="app/signup/signup.route.js"></script>
+		<script src="app/signup/signup.controller.js"></script>
+		<script src="app/signup/signup.service.js"></script>					
+	</body>
+</html>

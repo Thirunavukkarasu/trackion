@@ -1,0 +1,45 @@
+<div ng-include="'app/header.tpl.html'"></div>
+<div class="container">
+    <div class="row">
+        <h4><a href="/dashboard">{{currentUser.displayName}} </a>/ <a href="/detailidea/{{currentUser._id}}">{{ideaDetail.title}}</a></h4>
+    </div>
+    <uib-tabset active="active">
+		 <uib-tab index="0" heading="Overview">
+		  <div class="panel panel-default">
+		    <div class="panel-body">
+		      <div class="col-md-4">
+		        <img class="img-rounded" ng-src="{{ideaDetail.poster}}" width="100%" height="300" />
+		      </div>
+		      <div class="col-md-8">
+		        <h2>{{ideaDetail.title}}</h2>
+		        <p>{{ideaDetail.description}}</p>
+		      </div>  
+		    </div>
+		  </div>
+		</uib-tab>
+		<uib-tab index="1" heading="Paper Prototyping">
+		  <div class="panel panel-default">
+		    <div class="panel-body">
+		      <div class="col-md-8">
+		        <h2>Do with paper, it has an emotional connect</h2>
+		        <p>Paper prototyping is a technique that allows you to create and test user interfaces quickly and cheaply. It's easier to change a prototype than the final design.</p>
+		      </div>  
+		    </div>
+		  </div>
+		</uib-tab>
+		<uib-tab index="3" heading="Settings">
+		  <div class="panel panel-default">
+		    <div class="panel-body">
+		      <div class="col-md-4">
+		        <img class="img-rounded" ng-src="{{ideaDetail.poster}}" width="100%" height="300" />
+		      </div>
+		      <div class="col-md-8">
+		        <h2>{{ideaDetail.title}}</h2>
+		        <p>{{ideaDetail.description}}</p>
+		      </div>  
+		    </div>
+		  </div>
+		</uib-tab>
+    </uib-tabset>
+ </div>
+ <div ng-include="'app/footer.tpl.html'"></div>
